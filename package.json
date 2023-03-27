@@ -7,7 +7,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "start": "ts-node --esm src/index.ts"
+    "ethr-110": "ts-node --esm src/ethr-110.ts",
+    "didjwt-275": "ts-node --esm src/didjwt-275.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "typescript": "^5.0.2"
   },
   "dependencies": {
+    "@ayanworks/polygon-did-resolver": "^0.0.13",
     "did-jwt-vc": "^3.1.2",
     "ethr-did": "^2.3.6"
   }
